@@ -1,6 +1,6 @@
 ---
 - name: Configure apt-cacher-ng https passthrough
   lineinfile:
-    path: {{ apt-cacher-ng_config_path }}
+    path: "{{ apt-cacher-ng_config_path }}"
     line: 'PassThroughPattern: .*:443$'
   notify: Restart apt-cacher-ng
