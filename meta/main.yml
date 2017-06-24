@@ -11,5 +11,7 @@ galaxy_info:
     - trusty
     - xenial
   galaxy_tags:
-    - apt_cacher_ng
+    - aptcacher
+    - apt
+    - caching
 dependencies: []
