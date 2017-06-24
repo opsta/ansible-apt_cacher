@@ -1,0 +1,3 @@
+---
+- include: apt-cacher-ng_install.yml
+- include: apt-cacher-ng_post.yml
