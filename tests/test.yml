@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: ubuntu
   roles:
-    - ansible-apt-cacher
+    - ansible-apt_cacher_ng

@@ -1,5 +1,5 @@
-# Ansible Role: Nginx
-Ansible role to install and configure Nginx
+# Ansible Role: apt-cacher-ng
+Ansible role to install and configure apt-cacher-ng
 
 
 ## Requirements
@@ -18,7 +18,7 @@ None.
 
     - hosts: all
       roles:
-        - ansible-nginx
+        - ansible-apt_cacher_ng
 
 
 ## License
